@@ -58,8 +58,9 @@ export default function Home() {
               variants={fadeUp}
             >
               <Star className="h-4 w-4 mr-2" />
-              Trusted by <AnimatedCounter value={10000} suffix="+" /> Businesses
-              Worldwide
+              Trusted by
+              <AnimatedCounter value={10000} suffix="+" className="ml-1 mr-1" />
+              Businesses Worldwide
             </motion.div>
 
             <motion.h1
